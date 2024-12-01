@@ -51,9 +51,9 @@ local view_templates = {
     bar_val = "value",
     bar_lower_max = nil,
     bar_lower_val = nil,
-    chat_string = "%s (%.1f%%)",
-    bar_string = "%s (%.1f%%)",
-    bar_string_params = { "value", "percent" },
+    chat_string = "%s - %s (%.1f%%)",
+    bar_string = "%s - %s (%.1f%%)",
+    bar_string_params = { "value", "value_persecond", "percent" },
   },
   [2] = { -- dps
     name = "DPS",
